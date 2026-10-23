@@ -1,0 +1,91 @@
+/*
+Theme Name: PSS Nkwen Educational Theme
+Theme URI: https://pssnkwen.edu.cm
+Author: Santino Tech Consulting
+Author URI: https://santinotech.example
+Description: Traditional WordPress theme for Presbyterian Secondary School Nkwen, Bamenda, Cameroon.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pss-nkwen-theme
+*/
+
+:root {
+  --navy: #0f2544;
+  --gold: #c59b27;
+  --slate-bg: #f8fafc;
+  --text-dark: #1e293b;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--text-dark);
+  background-color: var(--slate-bg);
+  line-height: 1.6;
+}
+
+.pss-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header.site-header {
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 15px 0;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+nav.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav.main-nav a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+nav.main-nav a:hover {
+  color: var(--navy);
+}
+
+.hero-banner {
+  background: var(--navy);
+  color: #fff;
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--navy);
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer.site-footer {
+  background: #0a192f;
+  color: #94a3b8;
+  padding: 40px 0 20px;
+  margin-top: 60px;
+}
